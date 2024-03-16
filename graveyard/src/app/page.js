@@ -1,13 +1,9 @@
-import HeroMain from "@/components/Heros/HeroMain";
-import NavbarMain from "@/components/Navbars/NavbarMain";
+import Image from "next/image";
 
 export default function Home() {
   return (
-<>
-
-<NavbarMain/>
-<HeroMain/>
-    
-</>
+    <>
+      <h1>Home</h1>
+    </>
   );
 }

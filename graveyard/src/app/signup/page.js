@@ -1,11 +1,9 @@
-import SignupForm from "@/components/Forms/SignupForm";
-import NavbarMain from "@/components/Navbars/NavbarMain";
+import Image from "next/image";
 
-export default function Home() {
+export default function Signup() {
   return (
-       <>
-       <NavbarMain/>
-       <SignupForm/>
-       </>
+    <>
+      <h1>Signup</h1>
+    </>
   );
 }
